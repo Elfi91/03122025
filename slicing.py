@@ -3,7 +3,7 @@ Obiettivo: Praticare l'accesso agli elementi e lo slicing.
 '''
 
 # Creare una lista temperature
-Lista_iniziale = ["15", "18", "22", "25", "28", "30", "27", "24", "20"] 
+Lista_iniziale: list[str] = ["15", "18", "22", "25", "28", "30", "27", "24", "20"] 
 
 # Ordinare i numeri automaticamente
 # Lista_ordinata = sorted(Lista_iniziale) 
