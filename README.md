@@ -49,6 +49,3 @@ Minimo: 12.0
 Massimo: 78.3
 23.1 presente: True
 Prezzi > 50: 2
-
-
-
