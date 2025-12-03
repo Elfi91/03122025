@@ -17,6 +17,7 @@ Numero server: 4
 
 ## Esercizio 1.2: Slicing e Accesso
 File: slicing.py
+
 Obiettivo: Praticare l'accesso agli elementi e lo slicing.
 Consegna:
 Creare una lista temperature contenente: [15, 18, 22, 25, 28, 30, 27, 24, 20]
