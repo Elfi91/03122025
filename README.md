@@ -11,9 +11,12 @@ Instructions:
 - Remove "cache01"
 - Print the final list and its length
 
+```bash
 Expected Output:
+
 ['proxy01', 'web01', 'db01', 'backup01']
 Number of servers: 4
+```
 
 ## Exercise 1.2: Slicing and Access
 Goal: Practice element access and slicing.
@@ -26,12 +29,14 @@ Instructions:
 - Print the temperatures from position 2 up to 5 (exclusive)
 - Print all temperatures with a step of 2 (skipping one every two)
 
+```bash
 Expected Output:
 
 First temperature: 15
 Last temperature: 20
 Temperatures [2:5]: [22, 25, 28]
 Every two: [15, 22, 28, 27, 20]
+```
 
 ## Exercise 1.3: Sorting and Searching
 Goal: Sort lists and check for element existence.
@@ -44,6 +49,7 @@ Instructions:
 - Check if 23.1 is in the list
 - Count how many prices are greater than 50
 
+```bash
 Expected Output:
 
 Original prices: [45.5, 12.0, 78.3, 23.1, 56.7]
@@ -52,6 +58,7 @@ Minimum: 12.0
 Maximum: 78.3
 23.1 present: True
 Prices > 50: 2
+```
 
 # DICTIONARY EXERCISES
 
@@ -69,10 +76,12 @@ Instructions:
 - Add a new key "protocol" with value "https"
 - Print the complete dictionary
 
+```bash
 Expected Output:
 
 Host: 192.168.1.1
 {'host': '192.168.1.1', 'port': 443, 'ssl': True, 'timeout': 30, 'protocol': 'https'}
+```
 
 ## Exercise 2.2: Iteration
 Goal: Iterate over dictionaries.
@@ -87,6 +96,7 @@ Instructions:
 - Print all keys (usernames)
 - Print all values (roles)
 
+```bash
 Expected Output:
 
 Username: alice, Role: admin
@@ -95,6 +105,7 @@ Username: charlie, Role: guest
 bob present: True
 Usernames: dict_keys(['alice', 'bob', 'charlie'])
 Roles: dict_values(['admin', 'user', 'guest'])
+```
 
 ## Exercise 2.3: Counting Occurrences
 Goal: Use dictionaries to count occurrences.
@@ -106,9 +117,11 @@ Instructions:
 - Iterate over the grades list and count how many times each grade appears in the dictionary
 - Print the final dictionary (Hint: Use count.get(grade, 0) to handle missing keys)
 
+```bash
 Expected Output:
 
-Grade count: {'A': 4, 'B': 3, 'C': 2, 'D': 1}ù
+Grade count: {'A': 4, 'B': 3, 'C': 2, 'D': 1}
+```
 
 ## Exercise 3.1: List of Dictionaries
 Goal: Manage a list of dictionaries (similar to a database).
@@ -122,6 +135,7 @@ Instructions:
 - Iterate over the list and print only the products with a price greater than 100
 - Calculate the total inventory value (price × quantity for each product)
 
+```bash
 Expected Output:
 
 Products > €100:
@@ -129,3 +143,4 @@ Products > €100:
 - Monitor: €299.99
 
 Total inventory value: 12524.80€
+```
